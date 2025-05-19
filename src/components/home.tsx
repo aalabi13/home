@@ -313,7 +313,7 @@ export default function Home() {
                   {item === 1 ? (
                     <div className="h-40 md:h-48 relative">
                       <iframe
-                        src="/home/Wiki Dungeon.pdf#view=FitH&toolbar=0&navpanes=0&pagemode=none"
+                        src="/Wiki Dungeon.pdf#view=FitH&toolbar=0&navpanes=0&pagemode=none"
                         className="w-full h-full border-0 pointer-events-none"
                         title="Wiki Dungeon PDF Preview"
                       />
@@ -322,7 +322,7 @@ export default function Home() {
                   ) : item === 2 ? (
                     <div className="h-40 md:h-48 relative">
                       <img
-                        src="/home/propertypulse.png"
+                        src="/propertypulse.png"
                         alt="PropertyPulse Project"
                         className="w-full h-full object-cover pointer-events-none"
                       />
@@ -331,7 +331,7 @@ export default function Home() {
                   ) : (
                     <div className="h-40 md:h-48 relative">
                       <img
-                        src="/home/todo.png"
+                        src="/todo.png"
                         alt="Todo List App"
                         className="w-full h-full object-cover pointer-events-none"
                       />
