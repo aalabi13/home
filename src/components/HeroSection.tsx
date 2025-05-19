@@ -24,7 +24,7 @@ const HeroSection = ({
   description = "Specializing in scalable cloud infrastructure and modern web development",
   ctaText = "Let's Build Together",
   onCtaClick = () => console.log("CTA clicked"),
-  imageUrl = "/pfp.png",
+  imageUrl = "/home/pfp.png",
 }: HeroSectionProps) => {
   const { scrollY } = useAppleScroll();
   const sectionRef = useRef<HTMLDivElement>(null);
